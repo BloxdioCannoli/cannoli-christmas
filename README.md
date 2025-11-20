@@ -1,2 +1,2 @@
-> [!INFO]
+> [!NOTE]
 > Bloxdio Cannoli advent calander

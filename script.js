@@ -44,4 +44,9 @@ window.onload = () => {
   </div>
   `
   }
+
+  const spec = window.location.href.split("?")[1]?.split(",")
+  if (spec.includes("hideteaser")) {
+    document.getElementById("teaser").style.display="none"
+  }
 }

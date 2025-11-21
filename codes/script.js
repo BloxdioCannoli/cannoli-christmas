@@ -70,7 +70,7 @@ ${code[daynum-1].code}
       }
     }
   } else {
-    window.open("/", "_parent")
+    window.open("https://bloxdiocannoli.github.io/cannoli-christmas/", "_parent")
   }
 }
 

@@ -1,0 +1,150 @@
+:root {
+  --primary: green;
+  --primaryHead: rgb(42, 94, 38);
+  --primaryHeadBg: rgba(103, 255, 92, 0.9);
+  --primaryBg: rgba(103, 255, 92, 0.9);
+  --primaryBorder: rgb(104, 176, 99);
+  --primaryBorder2: rgba(84, 156, 79, 0.5);
+  --dayText: #dbffe2;
+
+  --secondary: white;
+  --secondaryDark: #c7c7c7;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  user-select: none;
+}
+
+.day-display {
+  position: absolute;
+  z-index: 2;
+  transform: translate(-50%, 50%);
+  color: var(--dayText);
+}
+
+.cropped-box {
+  width: 80px;
+  height: 90px;
+  overflow: hidden;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  filter: blur(1px);
+}
+
+
+.image-bottom-cont {
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+}
+
+.image-bottom {
+  z-index: -1;
+}
+
+.calendar-cont {
+  position: absolute;
+  width: 80%;
+  height: 100%;
+
+  text-align: center;
+  align-content: center;
+
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image-cover {
+  position: absolute;
+  z-index: 100;
+  width: 90px;
+  height: 100px;
+}
+
+.calendar-head {
+  display: inline-block;
+  background-color: var(--primaryHeadBg);
+  border: 2px solid var(--primaryBorder);
+  color: var(--primaryHead);
+  padding: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.calendar {
+  width: 450px;
+  background: var(--primaryBg);
+  border: 3px solid var(--primaryBorder);
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.calendar-box {
+  border: 3px solid var(--primaryBorder2);
+  color: var(--primaryBorder2);
+  margin: 5px;
+  padding: 0px;
+  width: 80px;
+  height: 90px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+}
+
+.bg-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.blur-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+
+  z-index: 1;
+}
+
+.center-band {
+  color: #004200;
+  background: linear-gradient(to left, #369900, #00e01a);
+  display: block;
+  padding: 10px;
+
+  text-align: center;
+
+  width: 100%;
+
+  font-weight: 600;
+
+  font-size: 20px;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  z-index: 10;
+}

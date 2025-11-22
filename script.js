@@ -54,7 +54,7 @@ window.onload = () => {
     <span class="day-display">Day ${cb + 1}</span>
       <div class="cropped-box">
         <div class="image-cover"></div>
-        <img src="Screenshot 2025-11-21 at 1.13.08 PM.png" height="100" width="90" draggable="false" />
+        <img height="250" alt="Screenshot 2025-11-21 at 1 13 08 PM" src="https://github.com/user-attachments/assets/4a23be0c-ffda-4016-9599-3ae7ed71a0c3" />
       </div>
   </div>
   `)

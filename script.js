@@ -54,7 +54,7 @@ window.onload = () => {
     <span class="day-display">Day ${cb + 1}</span>
       <div class="cropped-box">
         <div class="image-cover"></div>
-        <img height="250" alt="Screenshot 2025-11-21 at 1 13 08 PM" src="https://github.com/user-attachments/assets/4a23be0c-ffda-4016-9599-3ae7ed71a0c3" />
+        <img height="250" alt="Screenshot 2025-11-21 at 1 13 08 PM" src="https://github-production-user-asset-6210df.s3.amazonaws.com/229039173/517528065-4a23be0c-ffda-4016-9599-3ae7ed71a0c3.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20251122%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251122T153849Z&X-Amz-Expires=300&X-Amz-Signature=b3e2667953f3bb21174217a5dd20486b19b7980a49b02b488e2147b18a0842e7&X-Amz-SignedHeaders=host" />
       </div>
   </div>
   `)

@@ -61,13 +61,16 @@ Credit to Bloxdio Cannoli on YT
 ${code[daynum-1].code}
     `
 
+    codebox.style.display="none"
+
     copycode.onclick = async function() {
-      try {
+      /*try {
         await navigator.clipboard.writeText(codebox.innerHTML.replaceAll("<br>", ""));
         alert("Code copied!");
       } catch (err) {
         alert("Failure to copy:", err);
-      }
+      }*/
+      window.open(code[daynum-1].copycode)
     }
   } else {
     window.open("https://bloxdiocannoli.github.io/cannoli-christmas/", "_parent")

@@ -2,7 +2,7 @@
 > **Credit is appreciated.** To credit, mention _Bloxdio Cannoli on YT_ in the video title/description/pinned comment or any other visible place you'd like!
 
 # Day 1
-Video link: https://youtube.com
+Video link: https://www.youtube.com/shorts/kDvezB_fhB8
 ```js
 /*
 Cannoli Christmas Day 1

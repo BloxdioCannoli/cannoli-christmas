@@ -48,7 +48,7 @@ window.onload = () => {
 
   const daynum = window.location.href.split("?")[1]
 
-  video.href=code[daynum-1].url
+  //video.href=code[daynum-1].url
   codebox.style.display="none"
   
   if (daynum && isNumeric(daynum) && daynum >= 1 && daynum <= 31) {
@@ -67,6 +67,10 @@ ${code[daynum-1].code}
     `
 
     codebox.style.display="none"
+
+    video.onclick = async function() {
+      window.open(code[daynum-1].url)
+    }
 
     copycode.onclick = async function() {
       /*try {

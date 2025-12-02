@@ -47,6 +47,7 @@ window.onload = () => {
   const video = document.getElementById("video")
 
   video.href=code[daynum-1].url
+  codebox.style.display="none"
 
   const daynum = window.location.href.split("?")[1]
   if (daynum && isNumeric(daynum) && daynum >= 1 && daynum <= 31) {

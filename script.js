@@ -59,8 +59,7 @@ window.onload = () => {
   </div>
   `)
     document.getElementById(`imgday${cb+1}`).onerror=function() {
-      //document.getElementById(`imgday${cb+1}`).src="img/placeholder.png"
-      alert("hi")
+      document.getElementById(`imgday${cb+1}`).src="/img/placeholder.png"
     }
     document.getElementsByClassName("cropped-box")[cb].style.filter = (currentDay > cb + 1) ? `blur(0)` : `blur(${(cb + 1) - currentDay}px)`
 

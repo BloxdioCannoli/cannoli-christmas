@@ -54,10 +54,13 @@ window.onload = () => {
     <span class="day-display">Day ${cb + 1}</span>
       <div class="cropped-box">
         <div class="image-cover"></div>
-        <img height="250" alt="image" src="img/day${cb+1}.png" />
+        <img id="imgday${cb+1}" height="250" alt="image" src="img/day${cb+1}.png" />
       </div>
   </div>
   `)
+    document.getElementById(`imgday${cb+1}`).onerror=function() {
+      document.getElementById(`imgday${cb+1}`).src="img/placeholder.png"
+    }
     document.getElementsByClassName("cropped-box")[cb].style.filter = (currentDay > cb + 1) ? `blur(0)` : `blur(${(cb + 1) - currentDay}px)`
 
     if (!isActive) {

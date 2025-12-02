@@ -3,12 +3,26 @@
 
 # Day 1
 Video link: https://youtube.com
-```
+```js
 /*
 Cannoli Christmas Day 1
 
 All code by Bloxdio Cannoli on YT
 */
+
+// Gives every player that joins a special wand!
+function onPlayerJoin(myId) {
+api.giveItem(myId, "Stick", 1, {
+
+customDisplayName: "Wand of Snow",
+customDescription: "Click on a block while holding me to get it snow!",
+
+customAttributes: {
+enchantmentTier: "Tier 5",
+}
+
+})
+}
 
 // Set to a number to have a max amount of snowspawns. This can help with lag.
 maxSnow=null

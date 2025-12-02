@@ -54,7 +54,7 @@ window.onload = () => {
     <span class="day-display">Day ${cb + 1}</span>
       <div class="cropped-box">
         <div class="image-cover"></div>
-        <img height="250" alt="image" src="img/placeholder.png" />
+        <img height="250" alt="image" src="img/day${cb+1}.png" />
       </div>
   </div>
   `)

@@ -46,10 +46,11 @@ window.onload = () => {
   const copycode = document.getElementById("copycode")
   const video = document.getElementById("video")
 
+  const daynum = window.location.href.split("?")[1]
+
   video.href=code[daynum-1].url
   codebox.style.display="none"
-
-  const daynum = window.location.href.split("?")[1]
+  
   if (daynum && isNumeric(daynum) && daynum >= 1 && daynum <= 31) {
     codetitle.innerHTML = `${code[daynum-1].name != "" ? code[daynum-1].name : "???"} | Day #${daynum}`
 

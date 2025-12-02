@@ -92,7 +92,7 @@ window.onload = () => {
   }
 
   const spec = window.location.href.split("?")[1]?.split(",")
-  if (spec.includes("hideteaser")) {
+  if (spec.includes("hideteaser")||true) {
     document.getElementById("teaser").style.display="none"
   }
 }

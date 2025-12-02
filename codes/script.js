@@ -44,13 +44,16 @@ window.onload = () => {
   const codetitle = document.getElementById("codetitle")
   const codedesc = document.getElementById("codedesc")
   const copycode = document.getElementById("copycode")
+  const video = document.getElementById("video")
+
+  video.href=code[daynum-1].url
 
   const daynum = window.location.href.split("?")[1]
   if (daynum && isNumeric(daynum) && daynum >= 1 && daynum <= 31) {
     codetitle.innerHTML = `${code[daynum-1].name != "" ? code[daynum-1].name : "???"} | Day #${daynum}`
 
     codedesc.innerHTML = `
-    ${code[daynum-1].desc != "" ? `${code[daynum-1].desc} <a href="${code[daynum-1].url}">click here for the video</a>` : "Check back later for the name, description, video, and code!"}
+    ${code[daynum-1].desc != "" ? `${code[daynum-1].desc}` : "Check back later for the name, description, video, and code!"}
     `
 
     codebox.innerHTML = `

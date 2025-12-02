@@ -76,7 +76,8 @@ ${code[daynum-1].code}
 
 code = [
   {
-    code: '/*
+    code: '
+      /*
 Cannoli Christmas Day 1
 
 All code by Bloxdio Cannoli on YT

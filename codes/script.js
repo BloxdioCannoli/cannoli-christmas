@@ -83,6 +83,7 @@ code = [
     url: "https://www.youtube.com/shorts/kDvezB_fhB8",
     name: "Snow Spawner",
     desc: "Spawn snow with a magic snow wand! See the video for more details.",
+    copycode: "https://github.com/BloxdioCannoli/cannoli-christmas/blob/main/codes.md#day-1"
   }, // 1
   {
     code: ``,

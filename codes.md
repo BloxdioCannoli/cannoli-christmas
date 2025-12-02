@@ -3,6 +3,8 @@
 
 # Day 1
 Video link: https://www.youtube.com/shorts/kDvezB_fhB8
+
+Paste into World Code:
 ```js
 /*
 Cannoli Christmas Day 1

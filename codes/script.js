@@ -79,6 +79,7 @@ ${code[daynum-1].code}
       } catch (err) {
         alert("Failure to copy:", err);
       }*/
+      code[daynum-1].copycode=`https://github.com/BloxdioCannoli/cannoli-christmas/blob/main/codes.md#day-${daynum}`
       window.open(code[daynum-1].copycode)
     }
   } else {

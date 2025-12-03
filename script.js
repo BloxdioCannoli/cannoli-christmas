@@ -40,7 +40,7 @@ window.onload = () => {
 
   const special = rootStyles.getPropertyValue("--special");
 
-  const specialDays=[1, 4, 8, 12, 16, 20, 24]
+  const specialDays=[1, 8, 12, 16, 20, 24]
 
 
   const calendar = document.getElementById("calendar")

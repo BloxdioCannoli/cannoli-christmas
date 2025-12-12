@@ -46,7 +46,7 @@ window.onload = () => {
   const copycode = document.getElementById("copycode")
   const video = document.getElementById("video")
 
-  const daynum = window.location.href.split("?")[1]
+  const daynum = Number(window.location.href.split("?")[1])
 
   //video.href=code[daynum-1].url
   codebox.style.display="none"
@@ -89,7 +89,7 @@ ${code[daynum-1].code}
 
 code = [
   {
-    code: document.getElementById("day1").innerHTML,
+    code: "",
     url: "https://www.youtube.com/shorts/kDvezB_fhB8",
     name: "Snow Spawner",
     desc: "Spawn snow with a magic snow wand! See the video for more details.",

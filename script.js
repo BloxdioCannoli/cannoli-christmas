@@ -36,7 +36,7 @@ window.onload = () => {
 
   }, 1)
 
-  const currentDay = 1
+  const currentDay = 10
 
   const special = rootStyles.getPropertyValue("--special");
 
